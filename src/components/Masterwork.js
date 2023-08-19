@@ -20,7 +20,7 @@ import overlayy from "../img/overlayy.png";
 import WhatsAppButton from "./whatsapp";
 import lady1 from "../img/lady1.png"
 import lady2 from "../img/lady2.png"
-// adding comment fro firebase deployment
+// creating the code for main push and deploy
 export default function Masterwork() {
   return (
     <>
@@ -64,7 +64,7 @@ export default function Masterwork() {
                     <br />
                     <p className="card-text masterText2">
                       <b>
-                        After booking a tailor will arrive at your doorStep</b>
+                        After booking a tailor will arrive at your door Step</b>
                     </p>
                   </div>
                 </div>
