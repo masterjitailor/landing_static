@@ -20,6 +20,7 @@ import overlayy from "../img/overlayy.png";
 import WhatsAppButton from "./whatsapp";
 import lady1 from "../img/lady1.png"
 import lady2 from "../img/lady2.png"
+// adding comment fro firebase deployment
 export default function Masterwork() {
   return (
     <>
@@ -45,7 +46,7 @@ export default function Masterwork() {
                   <div className="card-body">
                     <h4 style={{ marginLeft: "-8rem", marginTop: "-2rem" }}>1</h4>
                     <p className="card-text my-2 masterText1" >
-                      Select garments and book a tailor for it’s stitching.
+                      Select garments and book a tailor for it’s stitching
                     </p>
                   </div>
                 </div>
