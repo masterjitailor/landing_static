@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+//data changed with npm update
 
 const AccordionItem = ({ header, content, activeIndex, index, setActiveIndex }) => {
   const isActive = activeIndex === index;

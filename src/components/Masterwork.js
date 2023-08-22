@@ -20,7 +20,7 @@ import overlayy from "../img/overlayy.png";
 import WhatsAppButton from "./whatsapp";
 import lady1 from "../img/lady1.png"
 import lady2 from "../img/lady2.png"
-//final change in design
+
 export default function Masterwork() {
   return (
     <>
