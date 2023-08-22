@@ -46,7 +46,7 @@ export default function Masterwork() {
                   <div className="card-body">
                     <h4 style={{ marginLeft: "-8rem", marginTop: "-1rem" }}>1</h4>
                     <p className="card-text my-2 masterText1" >
-                      <b>Select garments and book a tailor for it’s stitching.</b>
+                      <b>Select garments and book a tailor for it’s stitching</b>
                     </p>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ export default function Masterwork() {
                   <div className="card-body">
                     <h4 style={{ marginLeft: "-8rem", marginTop: "-1rem" }}>2</h4>
                     <p className="card-text my-2 masterText1" >
-                      <b>After booking a tailor will arrive at your doorstep.</b>
+                      <b>After booking a tailor will arrive at your doorstep</b>
                     </p>
                   </div>
                 </div>
@@ -77,7 +77,7 @@ export default function Masterwork() {
                   <div className="card-body">
                     <h4 style={{ marginLeft: "-8rem", marginTop: "-1rem" }}>3</h4>
                     <p className="card-text my-2 masterText1" >
-                      <b>Our expert will take your measurements.</b>
+                      <b>Our expert will take your measurements</b>
                     </p>
                   </div>
                 </div>
@@ -93,7 +93,7 @@ export default function Masterwork() {
                   <div className="card-body">
                     <h4 style={{ marginLeft: "-8rem", marginTop: "-1rem" }}>4</h4>
                     <p className="card-text my-2 masterText1" >
-                      <b>After 3-6 days stitched garment will be deilvered at your doorstep.</b>
+                      <b>After 3-6 days stitched garment will be deilvered at your doorstep</b>
                     </p>
                   </div>
                 </div>
