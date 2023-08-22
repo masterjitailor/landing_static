@@ -11,7 +11,7 @@ import img3 from "../img/Group 207.png"
 import new1 from "../img/new.jpg";
 import twitter from ".././img/twitter.png"
 import india from "../img/india.png"
-import instagram from "../img/instagram.png";
+import instagram from "../img/Instagram.png";
 import facebook from "../img/facebook.png";
 import youtube from ".././img/youtube.png"
 import pdf from ".././img/pdf.png"
@@ -20,7 +20,6 @@ import overlayy from "../img/overlayy.png";
 import WhatsAppButton from "./whatsapp";
 import lady1 from "../img/lady1.png"
 import lady2 from "../img/lady2.png"
-// creating the code for main push and deploy
 export default function Masterwork() {
   return (
     <>
@@ -29,11 +28,11 @@ export default function Masterwork() {
           <div className="ellipseBox">
             <img src={EllipseImg} alt=""></img>
             <h1 className="text1">
-              <b>How it works</b> <span id ="spann">_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ </span>
+              <b>How it works</b> <span id="spann">_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ </span>
             </h1>
           </div>
 
-          
+
           <div className="container-fluid my-5" >
             <div className="abc justify-content-evenly" id='abcd'>
               <div className="col-md-2">
@@ -44,73 +43,66 @@ export default function Masterwork() {
                     alt="Card image cap"
                   />
                   <div className="card-body">
-                    <h4 style={{ marginLeft: "-8rem", marginTop: "-2rem" }}>1</h4>
+                    <h4 style={{ marginLeft: "-8rem", marginTop: "-1rem" }}>1</h4>
                     <p className="card-text my-2 masterText1" >
-                      Select garments and book a tailor for it’s stitching
+                      <b>Select garments and book a tailor for it’s stitching.</b>
                     </p>
                   </div>
                 </div>
               </div>
               <div className="col-md-2">
-                <div className="masterMain2">
+                <div className=" justify-content-center masterMain1">
                   <img
-                    className="card-img-top masterimg2"
+                    className=" justify-content-center masterimg1"
                     src={img1}
                     alt="Card image cap"
                   />
-                  
                   <div className="card-body">
-                    <h4 style={{ marginLeft: "-8rem", marginTop: "-2rem" }}>2</h4>
-                    <br />
-                    <p className="card-text masterText2">
-                      <b>
-                        After booking a tailor will arrive at your door Step</b>
+                    <h4 style={{ marginLeft: "-8rem", marginTop: "-1rem" }}>2</h4>
+                    <p className="card-text my-2 masterText1" >
+                      <b>After booking a tailor will arrive at your doorstep.</b>
                     </p>
                   </div>
                 </div>
               </div>
-              
-              <div className="col-md-2">
-                <div className="masterMain3">
 
+              <div className="col-md-2">
+                <div className=" justify-content-center masterMain1">
                   <img
-                    className="card-img-top masterimg3"
+                    className=" justify-content-center masterimg1"
                     src={new1}
                     alt="Card image cap"
                   />
-                  
                   <div className="card-body">
-                    <h4 style={{ marginLeft: "-8rem", marginTop: "-2rem" }}>3</h4>
-                    <p className="card-text my-2 masterText3">
-                      <b>
-                        Our expert will take your measurements</b>
+                    <h4 style={{ marginLeft: "-8rem", marginTop: "-1rem" }}>3</h4>
+                    <p className="card-text my-2 masterText1" >
+                      <b>Our expert will take your measurements.</b>
                     </p>
-
                   </div>
                 </div>
               </div>
-             
+
               <div className="col-md-2">
-                <div className="masterMain4">
+                <div className=" justify-content-center masterMain1">
                   <img
-                    className="card-img-top masterimg4"
+                    className=" justify-content-center masterimg1"
                     src={img3}
                     alt="Card image cap"
                   />
                   <div className="card-body">
-                    <h4 style={{ marginLeft: "-8rem", marginTop: "-2rem" }}>4</h4>
-                    <br />
-                    <p className="card-text masterText4">
-                      <b>
-                        After 3-6 days stitched garment will be deilvered at your doorstep </b>
+                    <h4 style={{ marginLeft: "-8rem", marginTop: "-1rem" }}>4</h4>
+                    <p className="card-text my-2 masterText1" >
+                      <b>After 3-6 days stitched garment will be deilvered at your doorstep.</b>
                     </p>
                   </div>
                 </div>
               </div>
+
+
             </div>
           </div>
         </div>
-     
+
         <div className="text2Master">
           <img src={vectorImg} alt="" className="vectorImg"></img>
           <h1 className="text2">
@@ -131,14 +123,14 @@ export default function Masterwork() {
                   src={Ellipse20}
                   alt="Card image cap"
                 />
-                
+
                 <div className="card-body">
-                  <p className="card-text my-2" style={{ fontWeight: "300", textAlign: 'center', backgroundColor: 'white' }}>
+                  <p className="card-text my-2" style={{ fontWeight: "300", textAlign: 'center', }}>
                     <b>
-                      “What I love most is that I can accessorize it differently to create various looks. Whether it's a business meeting or a dinner date, Masterji's Contemporary Classics has me covered.”</b>
+                      “What I love most is that I can accessorize it differently to create various looks. Whether it's a business meeting or a dinner date, MasterJi's Contemporary Classics has me covered.”</b>
                   </p>
-                  <h6 className="card-title" style={{ fontWeight: "700", backgroundColor: 'white' }} >  <b> Meghna Mishra </b></h6>
-                  <p style={{ color: "var(--gray-2, #4F4F4F)", backgroundColor: 'white' }}>Bhopal</p>
+                  <h6 className="card-title" style={{ fontWeight: "700" }} >  <b> Meghna Mishra </b></h6>
+                  <p style={{ color: "var(--gray-2, #4F4F4F)" }}>Bangalore</p>
                 </div>
               </div>
             </div>
@@ -150,17 +142,17 @@ export default function Masterwork() {
                   alt="Card image cap"
                 />
                 <div className="card-body">
-                  <p className="card-text my-2" style={{ fontWeight: "300", textAlign: 'center', backgroundColor: 'white' }}>
+                  <p className="card-text my-2" style={{ fontWeight: "300", textAlign: 'center' }}>
                     <b>
-                      “I wore one of Masterji's lehengas to a wedding and felt like a royal princess. The outfit made me stand out, and its comfort throughout the event was a pleasant surprise. Kudos to Masterji's for blending tradition with a modern twist!”</b>
+                      “I wore one of MasterJi's lehengas to a wedding and felt like a royal princess. The outfit made me stand out, and its comfort throughout the event was a pleasant surprise. Kudos to MasterJi's for blending tradition with a modern twist!”</b>
                   </p>
-                  <h6 className="card-title" style={{ fontWeight: "700", textAlign: 'center', backgroundColor: 'white' }}>  <b> Anita Tilwari </b></h6>
-                  <p style={{ color: "var(--gray-2, #4F4F4F)", backgroundColor: 'white' }}>Indore</p>
+                  <h6 className="card-title" style={{ fontWeight: "700", textAlign: 'center' }}>  <b> Anita Tilwari </b></h6>
+                  <p style={{ color: "var(--gray-2, #4F4F4F)" }}>Delhi</p>
                 </div>
               </div>
             </div>
             <div className="col-md-2">
-            
+
               <div className="cust3">
                 <img
                   className="card-img-top custImg3"
@@ -169,26 +161,26 @@ export default function Masterwork() {
                 />
 
                 <div className="card-body">
-                  <p className="card-text my-2" style={{ fontWeight: "300", textAlign: 'center', backgroundColor: 'white' }} >
+                  <p className="card-text my-2" style={{ fontWeight: "300", textAlign: 'center' }} >
                     <b>
-                      “I recently shopped from Masterji's fashion collection and I must say, I'm impressed! The Trendy Chic Collection is a blend of elegance and modern style. The quality of the fabrics and the attention to detail in the stitching are truly commendable. I received so many compliments when I wore the outfit I purchased from here.”</b>
+                      “I recently shopped from MasterJi's fashion collection and I must say, I'm impressed! The Trendy Chic Collection is a blend of elegance and modern style. The quality of the fabrics and the attention to detail in the stitching are truly commendable. I received so many compliments when I wore the outfit I purchased from here.”</b>
                   </p>
-                  <h6 className="card-title" style={{ fontWeight: "700", textAlign: 'center', backgroundColor: 'white' }}>  <b>Radhika Sharma</b></h6>
-                  <p style={{ color: "var(--gray-2, #4F4F4F)", backgroundColor: 'white' }}>Bhopal</p>
+                  <h6 className="card-title" style={{ fontWeight: "700", textAlign: 'center' }}>  <b>Radhika Sharma</b></h6>
+                  <p style={{ color: "var(--gray-2, #4F4F4F)" }}>Mumbai</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-       
+
         <div className="container">
           <div className="abc">
             <div className="aboutMaster" id="aboutMaster">
               <img src={EllipseImg}></img>
-              <h1><b>About Master Ji </b></h1>
+              <h1><b>About MasterJi<span id="spann">_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ </span> </b></h1>
             </div>
             <div className="paragraph">
-              <p>Custom Stitching being the new trend, Masterji is just one tap close to get the kind of clothes you’ve always envisioned to wear. So, irrespective of your size, color, and gender, we can help you stand out with style and flaunt every attire you plan to carry</p>
+              <p>Custom Stitching being the new trend, MasterJi is just one tap close to get the kind of clothes you’ve always envisioned to wear. So, irrespective of your size, color, and gender, we can help you stand out with style and flaunt every attire you plan to carry</p>
               <br /><p>All you have to do is download the app, connect with us and then just see what our fashion and stitching experts can offer you. Our service is availabe in Bangalore and Bhopal</p>
             </div>
           </div>
@@ -196,19 +188,19 @@ export default function Masterwork() {
           <br />
           <br />
         </div>
-    
+
         <div className="container" id='container'>
           <div className="row1">
             <div className="aboutMaster" id="aboutMaster">
               <img src={EllipseImg}></img>
-              <h1><b>Frequently asked questions</b></h1>
+              <h1><b>Frequently Asked Questions<span id="spann">_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ </span></b></h1>
             </div>
             <div className="abc" id='accordion'>
               <Accordion2 />
             </div>
           </div>
         </div>
-       
+
         <div className="contactMain container" id='contactUs'>
           <div className="abc align-items-center justify-content-center"
             style={{
@@ -232,27 +224,27 @@ export default function Masterwork() {
       <div className="footer">
         <img src={img} alt="Logo" className="footerLogo" />
         <div className="address">
-          <h3>Address</h3>
-          <p className="footData">36, 2nd Floor,<br /> Salarpuria Tower -1. 22 ,<br />Next to Forum Mall, Hosur Rd, <br />above Big Bazzar, <br />7th Block, koramangala, <br />Bengaluru, Karnataka 560095</p>
+          <h3 className="addDiv">Address</h3>
+          <p className="footData">36, 2nd Floor,Salarpuria Tower -1. 22 ,Next to Forum Mall, Hosur Rd, above Big Bazzar, 7th Block, koramangala, Bengaluru, Karnataka 560095</p>
+          <div className="footPlayApp">
+            <button class="linkbtn"><a href="https://www.instagram.com/masterjitailor/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="" className="instImg" /></a></button>
+            <button class="linkbtn"><a href="https://www.facebook.com/MasterJiOnlineTailor" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="" className="faceImg" /></a></button>
+            <button class="linkbtn"><a href="https://twitter.com/home?lang=en" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="" className="twitterImg" /></a></button>
+            <button class="linkbtn"><a href="https://www.youtube.com/watch?v=ZooZYlTGym4&t=7s" target="_blank" rel="noopener noreferrer"><img src={youtube} alt="" className="youtubeImg" /></a></button>
+
+          </div>
         </div>
-        <div className="footPlayApp">
-          <button class="linkbtn"><a href="https://www.instagram.com/masterjitailor/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="" className="instImg" /></a></button>
-          <button class="linkbtn"><a href="https://www.facebook.com/MasterJiOnlineTailor" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="" className="faceImg" /></a></button>
-          <button class="linkbtn"><a href="https://twitter.com/home?lang=en" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="" className="twitterImg" /></a></button>
-          <button class="linkbtn"><a href="https://www.youtube.com/watch?v=ZooZYlTGym4&t=7s" target="_blank" rel="noopener noreferrer"><img src={youtube} alt="" className="youtubeImg" /></a></button>
-          <br/>
-          <br/>
-          <p className = "india"><b>Made in India</b><img src={india} alt="" className="indiaImg" /> </p>
-        </div>
-        
         <div>
-        <p className="footerAdd"><b>Blogs</b></p>
-        <p className="footerAdd"><b>Privacy Policy</b>
-          <button class="policy">
-            <a href="https://docs.google.com/document/d/18VTHF6B-OkMXmDctsJPDM_G1qiv0SbNapPXu071xTdg/edit" target="_blank" rel="noopener noreferrer">
-              <img src={pdf} alt="" className="pdfImg" />
-            </a></button>
-        </p>
+        <p className = "india">Made in India <img src={india} alt="" className="indiaImg" /> </p>
+        </div>
+        <div>
+          <p className="footerAdd blogs">Blogs</p>
+          <p className="footerAdd pp">Privacy Policy
+            <button class="policy">
+              <a href="https://docs.google.com/document/d/18VTHF6B-OkMXmDctsJPDM_G1qiv0SbNapPXu071xTdg/edit" target="_blank" rel="noopener noreferrer">
+                <img src={pdf} alt="" className="pdfImg" />
+              </a></button>
+          </p>
         </div>
         <WhatsAppButton />
       </div>

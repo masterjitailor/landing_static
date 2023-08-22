@@ -1,10 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../style/header.css";
+import bodyIcon from "../img/bodyIcons.png"
 import img from "../img/logo-masterji 1.png";
 import playStore from "../img/playStore.png";
 import appStore from "../img/appStore.png";
-import instagram from "../img/instagram.png";
+import instagram from "../img/Instagram.png";
 import facebook from "../img/facebook.png";
 import { HashLink as Link } from "react-router-hash-link";
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua5Xm5ZwSpeFgVW4E8LeWp1LrXa5n5X5x73xXmVZa/9a2Dz4+VstM6I5" crossorigin="anonymous"></script>
@@ -13,7 +14,8 @@ import { HashLink as Link } from "react-router-hash-link";
 const Header = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-warning navContainer" style={{ background: 'rgb(255 197 2 / 63%)' }}>
+      <nav className="navbar navbar-expand-lg navbar-warning navContainer" style={{ background: '#ffc107' }}>
+      <img src={bodyIcon} className="bodyIcon"></img>
         <div className="container">
           <img src={img} className="logoImg" alt="" />
           <button
@@ -28,10 +30,10 @@ const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className="collapse navbar-collapse" id="navbarNav" style={{ marginLeft: "29%" }}>
-            <ul className="navbar-nav ml-auto"> {/* ml-auto will push the nav links to the right */}
+          <div className="collapse navbar-collapse" id="navbarNav" style={{ marginLeft: "50%" }}>
+            <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link className="nav-link header1" to='#mainmaster' smooth>How it works?</Link>
+                <Link className="nav-link header1" to='#mainmaster' smooth>How it works</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link header2" activeClassName="active" to='#aboutMaster'>About Us</Link>

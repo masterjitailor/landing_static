@@ -20,11 +20,11 @@ const AccordionItem = ({ header, content, activeIndex, index, setActiveIndex }) 
   };
 
   const accordionHeaderStyle = {
+ 
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
     padding: "8px 16px",
-    fontWeight: "bold",
     cursor: "pointer",
     backgroundColor: "#ffff",
     borderRadius: "8px",
@@ -45,7 +45,7 @@ const AccordionItem = ({ header, content, activeIndex, index, setActiveIndex }) 
   return (
     <div style={accordionItemStyle} className={isActive ? "active" : ""}>
       <div style={accordionHeaderStyle} onClick={toggleAccordion}>
-        <span className="accordion-title">{header}</span>
+        <b><span className="accordion-title">{header}</span></b>
         <span style={accordionIconStyle}>&#x25BC;</span>
       </div>
       {isActive && <div style={accordionDrawerStyle}>{content}</div>}
@@ -57,6 +57,7 @@ const App = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const containerStyle = {
+    border:"dotted",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",

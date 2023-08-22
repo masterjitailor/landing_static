@@ -5,13 +5,13 @@ const WhatsAppButton = () => {
   const buttonStyle = {
     position: 'fixed',
     bottom: '10%',
-    right: '10%',
+    right: '6%',
     zIndex: '3',
   };
 
   const imageStyle = {
-    maxWidth: '100px',  // Adjust the max width as needed
-    maxHeight: '100px', // Adjust the max height as needed
+    maxWidth: '70px',  // Adjust the max width as needed
+    maxHeight: '70px', // Adjust the max height as needed
   };
 
   return (
