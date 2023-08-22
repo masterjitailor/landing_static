@@ -20,6 +20,7 @@ import overlayy from "../img/overlayy.png";
 import WhatsAppButton from "./whatsapp";
 import lady1 from "../img/lady1.png"
 import lady2 from "../img/lady2.png"
+//final change in design
 export default function Masterwork() {
   return (
     <>
@@ -181,7 +182,7 @@ export default function Masterwork() {
             </div>
             <div className="paragraph">
               <p>Custom Stitching being the new trend, MasterJi is just one tap close to get the kind of clothes you’ve always envisioned to wear. So, irrespective of your size, color, and gender, we can help you stand out with style and flaunt every attire you plan to carry</p>
-              <br /><p>All you have to do is download the app, connect with us and then just see what our fashion and stitching experts can offer you. Our service is availabe in Bangalore and Bhopal</p>
+              <br /><p>All you have to do is download the app, connect with us and then just see what our fashion and stitching experts can offer you.Our service is availabe in Bangalore and Bhopal</p>
             </div>
           </div>
           <br />
@@ -214,7 +215,7 @@ export default function Masterwork() {
                 <input type="text" placeholder="We would love to hear from you." className="input1 form-control mb-3 " />
                 <input type="email" placeholder="Enter your email Id" className="input2 form-control mb-3" />
                 <input type="mobile" placeholder="Enter your Mobile No." className="input2 form-control mb-3" />
-                <button className="btn btn-warning btnWidth " >Submit</button>
+                <button className="btn btn-warning btnWidth" >Submit</button>
               </div>
             </div>
           </div>
